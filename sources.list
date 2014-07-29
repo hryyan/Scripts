@@ -1,0 +1,139 @@
+#deb cdrom:[Ubuntu 14.04 LTS _Trusty Tahr_ - Release amd64 (20140417)]/ trusty main restricted
+
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team. Also, please note that software in universe WILL NOT receive any
+## review or updates from the Ubuntu security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty universe
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates universe
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
+## team, and may not be under a free licence. Please satisfy yourself as to 
+## your rights to use the software. Also, please note that software in 
+## multiverse WILL NOT receive any review or updates from the Ubuntu
+## security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
+
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+deb http://security.ubuntu.com/ubuntu trusty-security main restricted
+deb-src http://security.ubuntu.com/ubuntu trusty-security main restricted
+deb http://security.ubuntu.com/ubuntu trusty-security universe
+deb-src http://security.ubuntu.com/ubuntu trusty-security universe
+deb http://security.ubuntu.com/ubuntu trusty-security multiverse
+deb-src http://security.ubuntu.com/ubuntu trusty-security multiverse
+
+## Uncomment the following two lines to add software from Canonical's
+## 'partner' repository.
+## This software is not part of Ubuntu, but is offered by Canonical and the
+## respective vendors as a service to Ubuntu users.
+# deb http://archive.canonical.com/ubuntu trusty partner
+# deb-src http://archive.canonical.com/ubuntu trusty partner
+
+## This software is not part of Ubuntu, but is offered by third-party
+## developers who want to ship their latest software.
+deb http://extras.ubuntu.com/ubuntu trusty main
+deb-src http://extras.ubuntu.com/ubuntu trusty main
+
+## sources of 163, added by vin
+deb http://mirrors.163.com/ubuntu/ quantal main universe restricted multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal main universe restricted multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-security universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-security universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-updates universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-proposed universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-proposed universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-updates universe main multiverse restricted
+
+## sources of sohu, added by vin
+deb http://mirrors.sohu.com/ubuntu/ quantal main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ quantal main restricted
+deb http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted
+deb http://mirrors.sohu.com/ubuntu/ quantal universe
+deb-src http://mirrors.sohu.com/ubuntu/ quantal universe
+deb http://mirrors.sohu.com/ubuntu/ quantal-updates universe
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates universe
+deb http://mirrors.sohu.com/ubuntu/ quantal multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-updates multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-security main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-security main restricted
+deb http://mirrors.sohu.com/ubuntu/ quantal-security universe
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-security universe
+deb http://mirrors.sohu.com/ubuntu/ quantal-security multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-security multiverse
+deb http://extras.ubuntu.com/ubuntu quantal main
+deb-src http://extras.ubuntu.com/ubuntu quantal main
+
+## sources of taiwan, added by vin
+deb http://tw.archive.ubuntu.com/ubuntu/ quantal main universe restricted multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ quantal main universe restricted multiverse
+deb http://tw.archive.ubuntu.com/ubuntu/ quantal-security universe main multiverse restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ quantal-security universe main multiverse restricted
+deb http://tw.archive.ubuntu.com/ubuntu/ quantal-updates universe main multiverse restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ quantal-updates universe main multiverse restricted
+
+## sources of bone, added by vin
+deb http://ubuntu.srt.cn/ubuntu/ quantal main universe restricted multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ quantal main universe restricted multiverse
+deb http://ubuntu.srt.cn/ubuntu/ quantal-security universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ quantal-security universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ quantal-updates universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ quantal-proposed universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ quantal-proposed universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ quantal-updates universe main multiverse restricted
+
+## sources of lupaworld, added by vin
+deb http://mirror.lupaworld.com/ubuntu/archive/ quantal main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ quantal-security main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ quantal-updates main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ quantal-backports main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/ubuntu-cn/ quantal main restricted universe multiverse
+
+## sources of cn99, added by vin
+deb http://ubuntu.cn99.com/ubuntu/ quantal main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ quantal-security main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu-cn/ quantal main restricted universe multiverse
+
+## sources of sjtu, added by vin
+deb http://ftp.sjtu.edu.cn/ubuntu/ quantal main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ quantal-backports main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ quantal-proposed main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ quantal-security main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ quantal-updates main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu-cn/ quantal main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ quantal main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ quantal-backports main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ quantal-proposed main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ quantal-security main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ quantal-updates main multiverse restricted universe
