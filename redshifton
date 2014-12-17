@@ -1,0 +1,2 @@
+#! /bin/bash
+nonpararedshift -l 30.3:120.2 -o
